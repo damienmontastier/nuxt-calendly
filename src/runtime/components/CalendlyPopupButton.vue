@@ -47,4 +47,8 @@
     emit("close")
     isOpen.value = false
   }
+
+  defineExpose({
+    isOpen
+  })
 </script>
